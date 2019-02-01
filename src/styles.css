@@ -1,8 +1,43 @@
-/* add css styles here (optional) */
+.border {
+  border: 1px solid #cac9ca;
+  margin: 5px;
+}
 
-.test {
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 13px 42px 12px 15px;
+  margin: 5px;
+  border-radius: 2px;
+  background-color: #ebebeb;
+  text-align: left;
+  color: #262626;
+  font-family: Helvetica;
+  font-size: 14px;
+  position: relative;
   display: inline-block;
-  margin: 2em auto;
-  border: 2px solid #000;
-  font-size: 2em;
+}
+
+.close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: #747474;
+  cursor: pointer;
+}
+
+.tagInput {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  padding: 7px 5px;
+  margin: 5px;
+  appearance: textfield;
+  flex: 1;
+}
+.tagInput:focus {
+  outline: none;
 }
