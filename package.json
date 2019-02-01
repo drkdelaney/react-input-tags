@@ -1,6 +1,6 @@
 {
   "name": "@derekedelaney/react-input-tags",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An input box with tags.",
   "author": "derekedelaney",
   "license": "ISC",
@@ -50,6 +50,7 @@
     "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-inlinesvg": "^0.8.4",
     "react-scripts": "^1.1.4",
     "react-test-renderer": "^16.7.0",
     "rollup": "^0.64.1",
