@@ -1,6 +1,6 @@
 {
   "name": "@derekedelaney/react-input-tags",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An input box with tags.",
   "author": "derekedelaney",
   "license": "ISC",
@@ -47,7 +47,7 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.12.4",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
