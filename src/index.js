@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import Close from './close-button';
 
-import './styles.css';
+import styles from './styles.css'
 
 export default class InputTags extends Component {
     static propTypes = {
@@ -125,27 +125,24 @@ export default class InputTags extends Component {
         } = this.props;
 
         return (
-            <div className={cx('border', borderClass)}>
-                <div className={cx('tagContainer', tagContainerClass)}>
+            <div className={cx(styles.border, borderClass)}>
+                <div className={cx(styles.tagContainer, tagContainerClass)}>
                     {tags &&
                         tags.map((tag, index) => (
                             <span
                                 key={tag.id}
-                                className={cx('tag', tagClass)}
+                                className={cx(styles.tag, tagClass)}
                             >
                                 {tag.text}
                                 <Close
-                                    size={12}
-                                    className={cx('close', closeClass)}
-                                    onClick={() => {
-                                        onDeleteTag(tag, index);
-                                    }}
+                                    className={cx(styles.close, closeClass)}
+                                    onClick={onDeleteTag.bind(this, tag, index)}
                                 />
                             </span>
                         ))}
                     <input
                         ref={node => (this.input = node)}
-                        className={cx('tagInput', tagInputClass)}
+                        className={cx(styles.tagInput, tagInputClass)}
                         type="search"
                         onChange={this.handleChange}
                         onKeyDown={this.handleKeyDown}

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@derekedelaney/react-input-tags@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@derekedelaney/react-input-tags/-/react-input-tags-1.0.0.tgz#c9f85d904e3129c55e1a8c5b793996d047fbed53"
-  integrity sha512-AWNysImMJVK7tTNFcRRFUryb5m9pVV9uaS2UOKNfMJexCFVQUiVxcv391/j1ZSc8kLXZqFnC0XTebOectL9iUw==
+"@derekedelaney/react-input-tags@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@derekedelaney/react-input-tags/-/react-input-tags-1.0.4.tgz#9736a14c9cd92b1a718acc68af802425f11efbbe"
+  integrity sha512-ncYH/+EPws7cWJpUZKxcISylqwC9g+V8rv2QTWZRDD1VbC9XisyIkJI2t5apFIIUXoUnd8gcvu0dr0hM9KFEuA==
 
 abab@^1.0.3:
   version "1.0.4"

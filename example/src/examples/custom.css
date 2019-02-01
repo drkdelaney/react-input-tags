@@ -1,0 +1,29 @@
+.newBorder {
+    border: 5px solid pink;
+}
+
+.newContainer {
+    display: grid;
+}
+
+.newTag {
+    background-color: #ebebeb;
+}
+
+.newTag:nth-child(even) {
+    background-color: #AA8CC5;
+    color: white;
+}
+
+.newClose {
+    right: 5px;
+    top: 5px;
+    color: #ff8585;
+}
+
+.newInput {
+    border: 3px solid lightskyblue;
+    border-radius: 4px;
+    width: calc(100% - 10px);
+    font-size: 20px;
+}

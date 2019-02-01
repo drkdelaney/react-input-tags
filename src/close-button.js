@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
+import SVG from 'react-inlinesvg';
+import svgIcon from './close.svg';
 
-export default class Close extends Component {
-    render () {
-        return (<div>x</div>)
-    }
-}
+export default ({ className, onClick }) => (
+    <span className={className} onClick={onClick}><SVG src={svgIcon} /></span>
+);

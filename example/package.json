@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@derekedelaney/react-input-tags": "^1.0.0",
+    "@derekedelaney/react-input-tags": "^1.0.4",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
